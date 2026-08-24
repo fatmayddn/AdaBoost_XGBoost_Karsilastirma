@@ -1,10 +1,10 @@
-# 📊 Telco Customer Churn – AdaBoost ve XGBoost Karşılaştırması
+# Telco Customer Churn – AdaBoost ve XGBoost Karşılaştırması
 
 Bu projede **Telco Customer Churn** veri seti kullanılarak müşterilerin hizmetten ayrılma (churn) durumlarının tahmin edilmesi amaçlanmıştır.
 
 Çalışmada iki farklı boosting algoritması olan **AdaBoost** ve **XGBoost** modelleri uygulanmış ve performansları karşılaştırılmıştır.
 
-## 🎯 Projenin Amacı
+## Projenin Amacı
 
 Telekomünikasyon müşterilerinin mevcut özelliklerinden yararlanarak müşterinin hizmetten ayrılıp ayrılmayacağını tahmin etmek ve farklı boosting algoritmalarının bu problem üzerindeki performansını incelemektir.
 
@@ -13,7 +13,7 @@ Hedef değişken:
 - `Churn = 0` → Churn Yok
 - `Churn = 1` → Churn Var
 
-## 🔍 Projede Yapılan İşlemler
+## Projede Yapılan İşlemler
 
 - Telco Customer Churn veri setinin yüklenmesi
 - `customerID` değişkeninin modelleme dışında bırakılması
@@ -32,7 +32,7 @@ Hedef değişken:
 - Modellerin eğitim sürelerinin karşılaştırılması
 - AdaBoost ve XGBoost modellerinin genel performans karşılaştırması
 
-## 📈 Kullanılan Performans Metrikleri
+## Kullanılan Performans Metrikleri
 
 Modeller aşağıdaki metrikler kullanılarak değerlendirilmiştir:
 
@@ -52,7 +52,7 @@ Zayıf öğrenicilerin ardışık şekilde eğitilerek güçlü bir sınıfland�
 ### XGBoost
 Gradient Boosting yaklaşımını kullanan, regularizasyon ve çeşitli optimizasyon teknikleri içeren güçlü bir boosting algoritmasıdır.
 
-## 🛠️ Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 - Python
 - Pandas
@@ -63,7 +63,7 @@ Gradient Boosting yaklaşımını kullanan, regularizasyon ve çeşitli optimiza
 - XGBoost
 - Google Colab
 
-## 📊 Model Karşılaştırması
+## Model Karşılaştırması
 
 AdaBoost ve XGBoost modelleri yalnızca Accuracy açısından değil; Precision, Recall, F1 Score, AUC-ROC, Cross Validation sonuçları ve eğitim süreleri açısından da karşılaştırılmıştır.
 
