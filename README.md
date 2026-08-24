@@ -44,7 +44,7 @@ Modeller aşağıdaki metrikler kullanılarak değerlendirilmiştir:
 - 5-Fold Cross Validation
 - Eğitim Süresi
 
-## 🤖 Kullanılan Modeller
+## Kullanılan Modeller
 
 ### AdaBoost
 Zayıf öğrenicilerin ardışık şekilde eğitilerek güçlü bir sınıflandırıcı oluşturmasını sağlayan boosting algoritmasıdır. Bu çalışmada temel öğrenici olarak `DecisionTreeClassifier(max_depth=1)` kullanılmıştır.
